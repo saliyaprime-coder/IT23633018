@@ -1,0 +1,1815 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\USER\\Desktop\\IT23633018\\playwright.config.js",
+    "rootDir": "C:/Users/USER/Desktop/IT23633018",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/USER/Desktop/IT23633018/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "edge",
+        "name": "edge",
+        "testDir": "C:/Users/USER/Desktop/IT23633018",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js",
+          "**/*.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.1",
+    "workers": 3,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\testScript.spec.js",
+      "file": "tests/testScript.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Pos_Fun_0001 – Convert simple food request",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8053,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0001 Output: මට බත් ඕනේ\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:46:56.848Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-d55d243ca43cfef1e9be",
+          "file": "tests/testScript.spec.js",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0002 – Converted compound sentence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8313,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0002 Output: අපි කෑම කන්න යනව සහ පස්සෙ චිත්‍රපටියකුත් බලනවා\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:46:56.867Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-5fb1ef53606d9b345b72",
+          "file": "tests/testScript.spec.js",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0003 – Convert complex conditional sentence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7722,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0003 Output: ඔය එනවානම් මම බලන් ඉන්නවා.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:46:56.867Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-943b79a11d37ae4daabd",
+          "file": "tests/testScript.spec.js",
+          "line": 39,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0004 – Convert interrogative sentence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7405,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0004 Output: ඔයා කවද්ද එන්න හිතන් ඉන්නේ?\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:04.835Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-b5ffbe65a94cc8b648a4",
+          "file": "tests/testScript.spec.js",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0005 – Convert imperative command",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7342,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0005 Output: වහාම එන්න.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:05.106Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-82c1c3ea0d8a28d28cd4",
+          "file": "tests/testScript.spec.js",
+          "line": 73,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0006 – Convert negative sentence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7171,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0006 Output: මම එහෙම කරන්නේ නැහැ.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:05.435Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-6c1278bfc8c5ba771388",
+          "file": "tests/testScript.spec.js",
+          "line": 90,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0007 – Convert greeting",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7384,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0007 Output: ආයුබෝවන්!\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:12.250Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-144cda03625bf97695e6",
+          "file": "tests/testScript.spec.js",
+          "line": 107,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0008 – Convert polite request",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8419,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0008 Output: කරුණාකරලා මට පොඩි උදව්වක් කරන්න පුළුවන්ද?\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:12.458Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-f2993f4b7eb2d7de9533",
+          "file": "tests/testScript.spec.js",
+          "line": 124,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0009 – Convert repeated emphasis words",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7261,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0009 Output: හරි හරි\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:12.615Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-67d24bbf2faac0fc6fbe",
+          "file": "tests/testScript.spec.js",
+          "line": 141,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0010 – Convert mixed Singlish + English interrogative sentence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7068,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0010 Output: Zoom meeting එකක් තියෙන්නේ කියටද ?\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:19.642Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-f2276d4a8b82382f2699",
+          "file": "tests/testScript.spec.js",
+          "line": 158,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0011 – Convert place name",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7514,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0011 Output: අපි Kandy වලට යමුද.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:19.885Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-291acaeb1368968ebd6b",
+          "file": "tests/testScript.spec.js",
+          "line": 175,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0012 – Convert abbreviation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6953,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0012 Output: mage ID එක හම්බුන.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:20.887Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-bd3b726a5ccc275d2cdc",
+          "file": "tests/testScript.spec.js",
+          "line": 192,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0013 – Convert currency format",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7151,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0013 Output: Rs. 5343 ගෙවන්න තියෙනවා.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:26.721Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-12c29a300ac7b1510235",
+          "file": "tests/testScript.spec.js",
+          "line": 209,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0014 – Validate long mixed Singlish paragraph with requests and time references",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6913,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0014 Output: හෙට උදැසනම මම පාසල් යන්න කලින් email check කරල තියන්න ඔනී.teacher කෙනෙක්ගෙන් message එකක් ආවද කියලා බලන්න. පස්සෙ 9.30 AM විතර Zoom meeting එකක් තියෙනවා school management system එක ගැන discuss කරන්න. meeting එක පස්සෙ අපි team එක්ක lunch ගන්න යනවා සහ හෙට වෙනුවෙන් reports ටික prepare කරන්න ඕනේ.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:27.408Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-b14bdea4963252482444",
+          "file": "tests/testScript.spec.js",
+          "line": 226,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0015 – Convert imperative request sentence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7509,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0015 Output: ඒක දෙන්න.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:27.849Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-7168b5da60aebd461b8a",
+          "file": "tests/testScript.spec.js",
+          "line": 243,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0016 – Convert negative short sentence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 9201,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0016 Output: මට ඒක එපා.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:33.881Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-ecaaf635162e70535998",
+          "file": "tests/testScript.spec.js",
+          "line": 260,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0017 – Convert medium compound sentence with two actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7209,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0017 Output: අපි උදෑසනයෙන් ගෙදර ඉදලා පස්සෙ පාසල් යන්න හදන්නේ.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:34.333Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-0dc67439f46547467e4b",
+          "file": "tests/testScript.spec.js",
+          "line": 277,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0018 – Convert polite medium-length request sentence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7308,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0018 Output: කරුණාකරලා මට documents ටික email එකකට attach කරලා එවන්න පුළුවන්ද?\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:35.366Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-db98892bf111f9fba5f4",
+          "file": "tests/testScript.spec.js",
+          "line": 294,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0019 – Convert short future plan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 14156,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0019 Output: අපි හෙට යමු.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:41.551Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-1f727215626db4ee6497",
+          "file": "tests/testScript.spec.js",
+          "line": 311,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0020 – Convert short negative response",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12364,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0020 Output: ඒක හරි නැහැ.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:42.682Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-8aff7084c15218285e5f",
+          "file": "tests/testScript.spec.js",
+          "line": 328,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0021 – Convert medium sentence with reason",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 13101,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0021 Output: වැස්ස වහින නිසා අපි ගෙදර ඉන්න හදන්නෙ\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:43.092Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-e296dfc443aeb83c0a5a",
+          "file": "tests/testScript.spec.js",
+          "line": 345,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0022 – Convert medium sentence with request and action",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7064,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0022 Output: ඔයා පුළුවන්නම් මට ඒක දැන් කියල දෙන්න.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:55.054Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-44072dd362b99242376c",
+          "file": "tests/testScript.spec.js",
+          "line": 362,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0023 – Convert short daily feeling expression",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7422,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0023 Output: මට බය හිතෙනවා.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:55.715Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-3021ec70949a98f1d0c6",
+          "file": "tests/testScript.spec.js",
+          "line": 379,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0024 – Convert short present continuous action",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 8594,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0024 Output: අපි කතා කරනවා.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:47:56.201Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-a45af781803337106fc1",
+          "file": "tests/testScript.spec.js",
+          "line": 396,
+          "column": 1
+        },
+        {
+          "title": "Pos_Fun_0025 – Convert medium sentence with negation and reason",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7863,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_Fun_0025 Output: මට අද office යන්න බැහැ නිසා මම ගෙදර ඉන්නේ.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:48:02.125Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-e941a37d0d52a1413482",
+          "file": "tests/testScript.spec.js",
+          "line": 413,
+          "column": 1
+        },
+        {
+          "title": "Neg_Fun_0026 – Missing spaces",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 22602,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"මම\u001b[7m \u001b[27mගෙදර\u001b[7m \u001b[27mයනවා\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhala\u001b[27mමමගෙදරයනවා\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaමමගෙදරයනවා\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"මම\u001b[7m \u001b[27mගෙදර\u001b[7m \u001b[27mයනවා\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhala\u001b[27mමමගෙදරයනවා\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaමමගෙදරයනවා\"\u001b[22m\n\n    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:444:10",
+                    "location": {
+                      "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                      "column": 10,
+                      "line": 444
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 442 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 443 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 444 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'මම ගෙදර යනවා'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 445 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 446 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0026 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 447 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                        "column": 10,
+                        "line": 444
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"මම\u001b[7m \u001b[27mගෙදර\u001b[7m \u001b[27mයනවා\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhala\u001b[27mමමගෙදරයනවා\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaමමගෙදරයනවා\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 442 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 443 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 444 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'මම ගෙදර යනවා'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 445 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 446 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0026 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 447 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:444:10\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:48:03.146Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0026-–-Missing-spaces-edge\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0026-–-Missing-spaces-edge\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0026-–-Missing-spaces-edge\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                    "column": 10,
+                    "line": 444
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-9caa6bd9164c0b391115",
+          "file": "tests/testScript.spec.js",
+          "line": 432,
+          "column": 1
+        },
+        {
+          "title": "Neg_Fun_0027 – Heavy spelling errors",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "failed",
+                  "duration": 21875,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"\u001b[7mමට\u001b[27m බත් ඕනි\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalamat\u001b[27m බත් ඕනි\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalamat බත් ඕනි\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"\u001b[7mමට\u001b[27m බත් ඕනි\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalamat\u001b[27m බත් ඕනි\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalamat බත් ඕනි\"\u001b[22m\n\n    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:461:10",
+                    "location": {
+                      "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                      "column": 10,
+                      "line": 461
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 459 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 460 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 461 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'මට බත් ඕනි'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 462 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 463 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0027 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 464 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                        "column": 10,
+                        "line": 461
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"\u001b[7mමට\u001b[27m බත් ඕනි\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalamat\u001b[27m බත් ඕනි\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalamat බත් ඕනි\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 459 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 460 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 461 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'මට බත් ඕනි'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 462 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 463 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0027 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 464 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:461:10\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:48:04.803Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0027-–-Heavy-spelling-errors-edge\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0027-–-Heavy-spelling-errors-edge\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0027-–-Heavy-spelling-errors-edge\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                    "column": 10,
+                    "line": 461
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-4e16adc5dcd1772ef9c4",
+          "file": "tests/testScript.spec.js",
+          "line": 449,
+          "column": 1
+        },
+        {
+          "title": "Neg_Fun_0028 – Handle Singlish input with invalid special characters",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 22035,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"\u001b[7mමම\u001b[27m සෙල්ලම් කරනවා\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalam@m@\u001b[27m සෙල්ලම් කරනවා\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalam@m@ සෙල්ලම් කරනවා\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"\u001b[7mමම\u001b[27m සෙල්ලම් කරනවා\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalam@m@\u001b[27m සෙල්ලම් කරනවා\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalam@m@ සෙල්ලම් කරනවා\"\u001b[22m\n\n    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:478:10",
+                    "location": {
+                      "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                      "column": 10,
+                      "line": 478
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 476 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 477 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 478 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'මම සෙල්ලම් කරනවා'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 479 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 480 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0028 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 481 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                        "column": 10,
+                        "line": 478
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"\u001b[7mමම\u001b[27m සෙල්ලම් කරනවා\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalam@m@\u001b[27m සෙල්ලම් කරනවා\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalam@m@ සෙල්ලම් කරනවා\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 476 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 477 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 478 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'මම සෙල්ලම් කරනවා'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 479 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 480 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0028 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 481 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:478:10\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:48:10.000Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-3ead8--invalid-special-characters-edge\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-3ead8--invalid-special-characters-edge\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-3ead8--invalid-special-characters-edge\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                    "column": 10,
+                    "line": 478
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-88b27174bd4d9d0d4f3d",
+          "file": "tests/testScript.spec.js",
+          "line": 466,
+          "column": 1
+        },
+        {
+          "title": "Neg_Fun_0029 – Handle punctuation replacing spaces",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 22409,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"\u001b[7mඔයා \u001b[27mඑනවද\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalaඔය,\u001b[27mඑනවද\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaඔය,එනවද\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"\u001b[7mඔයා \u001b[27mඑනවද\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalaඔය,\u001b[27mඑනවද\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaඔය,එනවද\"\u001b[22m\n\n    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:495:10",
+                    "location": {
+                      "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                      "column": 10,
+                      "line": 495
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 493 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 494 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 495 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'ඔයා එනවද'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 496 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 497 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0029 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 498 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                        "column": 10,
+                        "line": 495
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"\u001b[7mඔයා \u001b[27mඑනවද\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalaඔය,\u001b[27mඑනවද\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaඔය,එනවද\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 493 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 494 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 495 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'ඔයා එනවද'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 496 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 497 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0029 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 498 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:495:10\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:48:26.705Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-446b6-unctuation-replacing-spaces-edge\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-446b6-unctuation-replacing-spaces-edge\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-446b6-unctuation-replacing-spaces-edge\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                    "column": 10,
+                    "line": 495
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-4ab9044dbe2b1f8087c9",
+          "file": "tests/testScript.spec.js",
+          "line": 483,
+          "column": 1
+        },
+        {
+          "title": "Neg_Fun_0030 – Handle sentence with mixed symbols and verbs",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "failed",
+                  "duration": 22225,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"\u001b[7mඔයා\u001b[27m හෙට එනවද කියල මට කියන්න\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalaඔය@@\u001b[27m හෙට එනවද කියල මට කිය\u001b[7m්@\u001b[27mන්න\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaඔය@@ හෙට එනවද කියල මට කිය්@න්න\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"\u001b[7mඔයා\u001b[27m හෙට එනවද කියල මට කියන්න\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalaඔය@@\u001b[27m හෙට එනවද කියල මට කිය\u001b[7m්@\u001b[27mන්න\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaඔය@@ හෙට එනවද කියල මට කිය්@න්න\"\u001b[22m\n\n    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:512:10",
+                    "location": {
+                      "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                      "column": 10,
+                      "line": 512
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 510 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 511 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 512 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'ඔයා හෙට එනවද කියල මට කියන්න'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 513 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 514 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0030 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 515 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                        "column": 10,
+                        "line": 512
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"\u001b[7mඔයා\u001b[27m හෙට එනවද කියල මට කියන්න\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalaඔය@@\u001b[27m හෙට එනවද කියල මට කිය\u001b[7m්@\u001b[27mන්න\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaඔය@@ හෙට එනවද කියල මට කිය්@න්න\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 510 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 511 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 512 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'ඔයා හෙට එනවද කියල මට කියන්න'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 513 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 514 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0030 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 515 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:512:10\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:48:27.762Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-f32dc-ith-mixed-symbols-and-verbs-edge\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-f32dc-ith-mixed-symbols-and-verbs-edge\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-f32dc-ith-mixed-symbols-and-verbs-edge\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                    "column": 10,
+                    "line": 512
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-d4630231abd929ad9533",
+          "file": "tests/testScript.spec.js",
+          "line": 500,
+          "column": 1
+        },
+        {
+          "title": "Neg_Fun_0031 – Handle mixed numbers and punctuation",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 22558,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"Today  meeting start වෙන්නෙ 10ට\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhala\u001b[27mToday \u001b[7m@@\u001b[27m meeting start වෙන්නෙ 10ට\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"SinhalaToday @@ meeting start වෙන්නෙ 10ට\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"Today  meeting start වෙන්නෙ 10ට\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhala\u001b[27mToday \u001b[7m@@\u001b[27m meeting start වෙන්නෙ 10ට\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"SinhalaToday @@ meeting start වෙන්නෙ 10ට\"\u001b[22m\n\n    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:529:10",
+                    "location": {
+                      "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                      "column": 10,
+                      "line": 529
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 527 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 528 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 529 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'Today  meeting start වෙන්නෙ 10ට'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 530 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 531 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0031 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 532 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                        "column": 10,
+                        "line": 529
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"Today  meeting start වෙන්නෙ 10ට\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhala\u001b[27mToday \u001b[7m@@\u001b[27m meeting start වෙන්නෙ 10ට\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"SinhalaToday @@ meeting start වෙන්නෙ 10ට\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 527 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 528 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 529 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'Today  meeting start වෙන්නෙ 10ට'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 530 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 531 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0031 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 532 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:529:10\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:48:33.028Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-d43d4-xed-numbers-and-punctuation-edge\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-d43d4-xed-numbers-and-punctuation-edge\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-d43d4-xed-numbers-and-punctuation-edge\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                    "column": 10,
+                    "line": 529
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-33b10483aa2e152dda8d",
+          "file": "tests/testScript.spec.js",
+          "line": 517,
+          "column": 1
+        },
+        {
+          "title": "Neg_Fun_0032 – Handle incomplete Singlish sentence",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 23390,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"හෙට අපි office\u001b[7m එනවා\u001b[27m\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhala\u001b[27mහෙට අපි office\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaහෙට අපි office\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"හෙට අපි office\u001b[7m එනවා\u001b[27m\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhala\u001b[27mහෙට අපි office\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaහෙට අපි office\"\u001b[22m\n\n    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:546:10",
+                    "location": {
+                      "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                      "column": 10,
+                      "line": 546
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 544 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 545 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 546 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'හෙට අපි office එනවා'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 547 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 548 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0032 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 549 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                        "column": 10,
+                        "line": 546
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"හෙට අපි office\u001b[7m එනවා\u001b[27m\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhala\u001b[27mහෙට අපි office\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaහෙට අපි office\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 544 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 545 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 546 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'හෙට අපි office එනවා'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 547 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 548 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0032 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 549 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:546:10\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:48:50.284Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-fdc4e-ncomplete-Singlish-sentence-edge\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-fdc4e-ncomplete-Singlish-sentence-edge\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-fdc4e-ncomplete-Singlish-sentence-edge\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                    "column": 10,
+                    "line": 546
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-b1e4d12874c8c68ccb52",
+          "file": "tests/testScript.spec.js",
+          "line": 534,
+          "column": 1
+        },
+        {
+          "title": "Neg_Fun_0033 – Handle repeated meaningless words",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 2,
+                  "status": "failed",
+                  "duration": 23761,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"ඔයා එනවද ?\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalaඔයා ඔයා \u001b[27mඔයා එනවද\u001b[7m්‍ර\u001b[27m ?\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaඔයා ඔයා ඔයා එනවද්‍ර ?\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"ඔයා එනවද ?\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalaඔයා ඔයා \u001b[27mඔයා එනවද\u001b[7m්‍ර\u001b[27m ?\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaඔයා ඔයා ඔයා එනවද්‍ර ?\"\u001b[22m\n\n    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:563:10",
+                    "location": {
+                      "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                      "column": 10,
+                      "line": 563
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 561 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 562 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 563 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'ඔයා එනවද ?'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 564 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 565 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0033 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 566 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                        "column": 10,
+                        "line": 563
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"ඔයා එනවද ?\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalaඔයා ඔයා \u001b[27mඔයා එනවද\u001b[7m්‍ර\u001b[27m ?\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaඔයා ඔයා ඔයා එනවද්‍ර ?\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 561 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 562 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 563 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'ඔයා එනවද ?'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 564 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 565 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0033 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 566 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:563:10\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:48:51.229Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-df8d8--repeated-meaningless-words-edge\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-df8d8--repeated-meaningless-words-edge\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-df8d8--repeated-meaningless-words-edge\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                    "column": 10,
+                    "line": 563
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-64a725b6fb529443a056",
+          "file": "tests/testScript.spec.js",
+          "line": 551,
+          "column": 1
+        },
+        {
+          "title": "Neg_Fun_0034 – Handle sentence with excessive capitalization",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 23358,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"මම හෙට පන්සල් එනවා\"\u001b[39m\nReceived string:    \u001b[31m\"SinhalaMAMA HETA PANSAL ENAVAA\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"SinhalaMAMA HETA PANSAL ENAVAA\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"මම හෙට පන්සල් එනවා\"\u001b[39m\nReceived string:    \u001b[31m\"SinhalaMAMA HETA PANSAL ENAVAA\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"SinhalaMAMA HETA PANSAL ENAVAA\"\u001b[22m\n\n    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:580:10",
+                    "location": {
+                      "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                      "column": 10,
+                      "line": 580
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 578 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 579 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 580 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'මම හෙට පන්සල් එනවා'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 581 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 582 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0034 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 583 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                        "column": 10,
+                        "line": 580
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"මම හෙට පන්සල් එනවා\"\u001b[39m\nReceived string:    \u001b[31m\"SinhalaMAMA HETA PANSAL ENAVAA\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"SinhalaMAMA HETA PANSAL ENAVAA\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 578 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 579 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 580 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'මම හෙට පන්සල් එනවා'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 581 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 582 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0034 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 583 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:580:10\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:48:56.743Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-89c03-th-excessive-capitalization-edge\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-89c03-th-excessive-capitalization-edge\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-89c03-th-excessive-capitalization-edge\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                    "column": 10,
+                    "line": 580
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-d4b2219b3b051d745aa2",
+          "file": "tests/testScript.spec.js",
+          "line": 568,
+          "column": 1
+        },
+        {
+          "title": "Neg_Fun_0035 – Handle mixed language with incorrect tense markers",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 22374,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"\u001b[7mඅපි Tommorow\u001b[27m church යනව\u001b[7mා\u001b[27m\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalaඅපි yesterday\u001b[27m church යන\u001b[7m්න\u001b[27mව\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaඅපි yesterday church යන්නව\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"\u001b[7mඅපි Tommorow\u001b[27m church යනව\u001b[7mා\u001b[27m\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalaඅපි yesterday\u001b[27m church යන\u001b[7m්න\u001b[27mව\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaඅපි yesterday church යන්නව\"\u001b[22m\n\n    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:597:10",
+                    "location": {
+                      "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                      "column": 10,
+                      "line": 597
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 595 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 596 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 597 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'අපි Tommorow church යනවා'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 598 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 599 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0035 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 600 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                        "column": 10,
+                        "line": 597
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\nExpected substring: \u001b[32m\"\u001b[7mඅපි Tommorow\u001b[27m church යනව\u001b[7mා\u001b[27m\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mSinhalaඅපි yesterday\u001b[27m church යන\u001b[7m්න\u001b[27mව\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('div').filter({ hasText: /^Sinhala$/ }).locator('..').first()\u001b[22m\n\u001b[2m    19 × locator resolved to <div class=\"card p-4 flex flex-col flex-1\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Sinhalaඅපි yesterday church යන්නව\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 595 |\u001b[39m         \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 596 |\u001b[39m     \u001b[36mawait\u001b[39m expect(outputContainer)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 597 |\u001b[39m         \u001b[33m.\u001b[39mtoContainText(\u001b[32m'අපි Tommorow church යනවා'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 598 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputContainer\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 599 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Neg_Fun_0035 Output:'\u001b[39m\u001b[33m,\u001b[39m result\u001b[33m.\u001b[39mreplace(\u001b[32m'Sinhala'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m.\u001b[39mtrim())\u001b[33m;\u001b[39m\n \u001b[90m 600 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js:597:10\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:49:14.839Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-5bd1e-ith-incorrect-tense-markers-edge\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-5bd1e-ith-incorrect-tense-markers-edge\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\USER\\Desktop\\IT23633018\\test-results\\tests-testScript-Neg-Fun-0-5bd1e-ith-incorrect-tense-markers-edge\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\USER\\Desktop\\IT23633018\\tests\\testScript.spec.js",
+                    "column": 10,
+                    "line": 597
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-4c7a51ef24caf7f62a17",
+          "file": "tests/testScript.spec.js",
+          "line": 585,
+          "column": 1
+        },
+        {
+          "title": "Pos_UI_0036 – Output visibility validation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7295,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Pos_UI_0036 Output: අපි හෙට යමු\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:49:16.136Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f3916d74106212a7141-109a338a7474df9ac3c6",
+          "file": "tests/testScript.spec.js",
+          "line": 602,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-31T09:46:56.007Z",
+    "duration": 161573.80299999999,
+    "expected": 26,
+    "skipped": 0,
+    "unexpected": 10,
+    "flaky": 0
+  }
+}

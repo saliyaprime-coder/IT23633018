@@ -1,0 +1,35 @@
+{
+  "name": "it23633018",
+  "version": "1.0.0",
+  "description": "Swift Translator Playwright Test Suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:positive": "playwright test --grep Pos_Fun",
+    "test:negative": "playwright test --grep Neg_Fun",
+    "test:ui-tests": "playwright test --grep Pos_UI",
+    "test:reporter": "playwright test --reporter=html",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen https://www.swifttranslator.com/"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "e2e",
+    "singlish",
+    "translator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.1.0"
+  }
+}
