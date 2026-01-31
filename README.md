@@ -53,5 +53,6 @@ playwright-report/index.html
 
 CREDITS
 
-Created by: saliyaprime-coder
+Created by: B.A.S.B.SAMARATHUNGA(IT23633018)
 Repository: https://github.com/saliyaprime-coder/IT23633018
+
